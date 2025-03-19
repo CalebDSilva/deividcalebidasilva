@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<form action="http://www.bing.com/search" method="post">
+<fieldset>
+<legend>Pesquisar</legend> 
+<abbr>*</abbr><label for="termo de busca"> termo de busca:</label>
+<input type="text" id="termo-busca" required placeholder="Digite algo">
+<button type="submit" formaction="http://www.google.com/search">Pesquisar</button>
+</fieldset>
+<fieldset>
+<legend>Termo de busca</legend>
+<div>
+<textarea name="resenha"  id="resenha" rows="10" cols="50" placeholder="resenha"> </textarea>
+</div>
+<div>
+<label form="campo_horario">horario de busca </label>
+<select name="tbs" id="campo_horario">
+<option value="">qualquer horario</option>
+<option value="qdr:h"> ultimo horario</option>
+<option value="qdr:d"> ultimo dia</option>
+<option value="qdr:w">ultima semana</option>
+</select>
+</div>
+</select>
+</fieldset>
+</body>
+</html>
